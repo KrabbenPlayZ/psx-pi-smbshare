@@ -108,7 +108,7 @@ map to guest = bad user
 allow insecure wide links = yes
 [share]
 Comment = default shared folder
-Path = /media/userplaceholder/$UUID
+Path = /media/userplaceholder/$FS_LABEL
 Browseable = yes
 Writeable = Yes
 only guest = no
