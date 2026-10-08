@@ -1,5 +1,5 @@
 # Notice
-this repository is a modified fork of psx-pi-smbshare from toolboc the original can be found [here](https://github.com/toolboc/psx-pi-smbshare)
+this repository is a modified fork of psx-pi-smbshare from [@toolboc](https://github.com/toolboc) the original can be found [here](https://github.com/toolboc/psx-pi-smbshare)
 
 # psx-pi-smbshare
 psx-pi-smbshare began with the intent of allowing SMB sharing to Multiman and Open Playstation Loader from a Raspberry Pi.  It has evolved into a Pi-based swiss army knife for enhancing classic game consoles.  
