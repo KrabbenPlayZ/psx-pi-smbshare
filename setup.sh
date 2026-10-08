@@ -135,7 +135,7 @@ chmod 755 /home/${USER}/automount-usb.sh
 { echo -e "@reboot bash /home/${USER}/launchkai.sh"; } | crontab -u ${USER} -
 
 #Set wifi-to-eth-route, setup-wifi-access-point, samba-init + ps3netsrv to run on startup as root
-{ echo -e "@reboot sudo bash /usr/local/bin/samba-init.sh\n@reboot sudo bash /home/${USER}/wifi-to-eth-route.sh && sudo bash /home/${USER}/setup-wifi-access-point.sh\"; } | crontab -u root -
+{ echo -e "@reboot sudo bash /usr/local/bin/samba-init.sh\n@reboot sudo bash /home/${USER}/wifi-to-eth-route.sh && sudo bash /home/${USER}/setup-wifi-access-point.sh"; } | sudo crontab -
 
 # Not a bad idea to reboot
 sudo reboot
