@@ -1,3 +1,6 @@
+# Notice
+this repository is a modified fork of psx-pi-smbshare from toolboc the original can be found [@here](https://github.com/toolboc/psx-pi-smbshare)
+
 # psx-pi-smbshare
 psx-pi-smbshare began with the intent of allowing SMB sharing to Multiman and Open Playstation Loader from a Raspberry Pi.  It has evolved into a Pi-based swiss army knife for enhancing classic game consoles.  
 
@@ -9,7 +12,7 @@ You can see it in action in this video from [@versatileninja](https://github.com
 The following commands can be used to upgrade an existing psx-pi-smbshare device.  These instructions can also be used to convert an unsupported device into a psx-pi-smbshare (for example [Raspberry Pi4](https://github.com/toolboc/psx-pi-smbshare/issues/10) and potentially other devices running a debian based OS with an accessible ethernet port).
 ```
 cd ~
-wget -O setup.sh https://raw.githubusercontent.com/toolboc/psx-pi-smbshare/master/setup.sh
+wget -O setup.sh https://raw.githubusercontent.com/KrabbenPlayZ/psx-pi-smbshare/master/setup.sh
 chmod 755 setup.sh
 ./setup.sh
 ```
@@ -31,7 +34,7 @@ psx-pi-smbshare supports an ability to route traffic from the ethernet port thro
 # Quickstart
 
 *Prerequisites*
-* Raspberry Pi 1, 2, or 3
+* Raspberry Pi 1, 2, 3 or 4
 * Micro-SD Card (8GB+ suggested)
 
 A detailed [video guide](https://www.youtube.com/watch?time_continue=1&v=Ilx5NYoUkNA) is provided by Project Phoenix Media which walks through the processes described below.
